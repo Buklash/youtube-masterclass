@@ -578,3 +578,12 @@ opacity:1;
 transform:translateY(0);
 }
 
+/* HERO PROOF */
+
+.hero-proof{
+    text-align:center;
+    color:#d4af37;
+    font-size:0.95rem;
+    margin-top:20px;
+    margin-bottom:25px;
+}

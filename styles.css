@@ -390,3 +390,41 @@ color:#ccc;
 line-height:1.8;
 font-size:18px;
 }
+
+
+/* TRANSFORMATION SECTION */
+
+
+.results{
+padding:90px 20px;
+max-width:1200px;
+margin:auto;
+}
+
+.results h2{
+text-align:center;
+font-size:42px;
+margin-bottom:50px;
+}
+
+.results-grid{
+display:grid;
+gap:20px;
+}
+
+.result-card{
+background:#111;
+border:1px solid rgba(212,175,55,.25);
+padding:25px;
+border-radius:20px;
+font-size:20px;
+font-weight:600;
+line-height:1.6;
+transition:.3s;
+}
+
+.result-card:hover{
+transform:translateY(-5px);
+border-color:#d4af37;
+box-shadow:0 0 30px rgba(212,175,55,.15);
+}

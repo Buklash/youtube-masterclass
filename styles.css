@@ -334,3 +334,59 @@ margin-bottom:20px;
 font-size:20px;
 line-height:1.6;
 }
+
+/* WHAT HAPPENS AFTER PAYMENT SECTION */
+
+
+
+.access-process{
+padding:90px 20px;
+max-width:1200px;
+margin:auto;
+}
+
+.access-process h2{
+text-align:center;
+font-size:42px;
+margin-bottom:50px;
+}
+
+.process-grid{
+display:grid;
+gap:25px;
+}
+
+.process-card{
+background:#111;
+border:1px solid #333;
+border-radius:25px;
+padding:30px;
+text-align:center;
+}
+
+.process-number{
+width:60px;
+height:60px;
+margin:auto;
+margin-bottom:20px;
+border-radius:50%;
+background:linear-gradient(135deg,#d4af37,#ffd700);
+color:#000;
+font-weight:700;
+font-size:24px;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.process-card h3{
+margin-bottom:15px;
+font-size:24px;
+color:#d4af37;
+}
+
+.process-card p{
+color:#ccc;
+line-height:1.8;
+font-size:18px;
+}

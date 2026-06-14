@@ -593,6 +593,13 @@ transform:translateY(0);
     margin-bottom:25px;
 }
 
+.hero-features{
+display:flex;
+flex-wrap:wrap;
+gap:12px;
+justify-content:center;
+}
+
 body{
 padding-bottom:180px;
 }

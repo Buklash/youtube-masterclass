@@ -593,8 +593,7 @@ transform:translateY(0);
     margin-bottom:25px;
 }
 
-
-.section{
-    padding: 60px 20px;
-
+body{
+padding-bottom:180px;
 }
+

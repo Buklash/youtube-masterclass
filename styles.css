@@ -51,9 +51,10 @@ max-width:700px;
 .hero-features{
 display:flex;
 flex-wrap:wrap;
-gap:15px;
-margin-bottom:30px;
+gap:12px;
+justify-content:center;
 }
+
 
 .hero-features span{
 background:#1b1b1b;
@@ -593,12 +594,6 @@ transform:translateY(0);
     margin-bottom:25px;
 }
 
-.hero-features{
-display:flex;
-flex-wrap:wrap;
-gap:12px;
-justify-content:center;
-}
 
 body{
 padding-bottom:180px;

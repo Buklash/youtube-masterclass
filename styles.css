@@ -1,0 +1,187 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+background:#0b0b0b;
+color:#ffffff;
+font-family:Arial, Helvetica, sans-serif;
+line-height:1.6;
+overflow-x:hidden;
+}
+
+.hero{
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:50px;
+padding:80px 8%;
+min-height:100vh;
+}
+
+.hero-content{
+flex:1;
+}
+
+.offer-badge{
+display:inline-block;
+background:#d4af37;
+color:#000;
+padding:10px 20px;
+border-radius:50px;
+font-weight:bold;
+margin-bottom:20px;
+}
+
+.hero h1{
+font-size:3rem;
+line-height:1.15;
+margin-bottom:20px;
+}
+
+.hero-subtitle{
+font-size:1.1rem;
+color:#d0d0d0;
+margin-bottom:30px;
+max-width:700px;
+}
+
+.hero-features{
+display:flex;
+flex-wrap:wrap;
+gap:15px;
+margin-bottom:30px;
+}
+
+.hero-features span{
+background:#1b1b1b;
+padding:10px 15px;
+border-radius:30px;
+border:1px solid #333;
+}
+
+.cta-btn{
+display:inline-block;
+background:#d4af37;
+color:#000;
+text-decoration:none;
+padding:16px 32px;
+font-weight:bold;
+border-radius:50px;
+transition:.3s;
+}
+
+.cta-btn:hover{
+transform:translateY(-3px);
+}
+
+.hero-image{
+flex:1;
+}
+
+.hero-image img{
+width:100%;
+border-radius:20px;
+box-shadow:0 0 30px rgba(212,175,55,.25);
+}
+
+.trust{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:20px;
+padding:60px 8%;
+}
+
+.trust-item{
+background:#151515;
+padding:25px;
+border-radius:15px;
+text-align:center;
+border:1px solid #222;
+}
+
+.problem{
+padding:80px 8%;
+}
+
+.problem h2{
+font-size:2rem;
+margin-bottom:25px;
+}
+
+.problem ul{
+list-style:none;
+}
+
+.problem li{
+margin-bottom:15px;
+font-size:1.1rem;
+}
+
+.course-cover{
+padding:80px 8%;
+text-align:center;
+}
+
+.course-cover img{
+max-width:450px;
+width:100%;
+border-radius:20px;
+box-shadow:0 0 35px rgba(212,175,55,.25);
+}
+
+.cta-section{
+padding:100px 8%;
+text-align:center;
+}
+
+.cta-section h2{
+font-size:2.2rem;
+margin-bottom:20px;
+}
+
+.cta-section p{
+margin-bottom:30px;
+font-size:1.1rem;
+}
+
+.sticky-cta{
+position:fixed;
+bottom:20px;
+left:50%;
+transform:translateX(-50%);
+z-index:999;
+}
+
+.sticky-cta a{
+background:#ff0033;
+color:#fff;
+text-decoration:none;
+padding:14px 24px;
+border-radius:50px;
+font-weight:bold;
+box-shadow:0 10px 30px rgba(255,0,51,.4);
+}
+
+@media(max-width:900px){
+
+.hero{
+flex-direction:column;
+padding-top:120px;
+}
+
+.hero h1{
+font-size:2rem;
+}
+
+.trust{
+grid-template-columns:1fr 1fr;
+}
+
+.course-cover img{
+max-width:100%;
+}
+
+}

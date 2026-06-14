@@ -310,3 +310,27 @@ font-size:1.2rem;
 color:#d0d0d0;
 line-height:1.8;
 }
+
+/* WHO IS THIS FOR SECTION */
+
+.audience{
+padding:80px 20px;
+max-width:1100px;
+margin:auto;
+}
+
+.audience h2{
+font-size:42px;
+text-align:center;
+margin-bottom:40px;
+}
+
+.audience-card{
+background:#111;
+border:1px solid #333;
+padding:25px;
+border-radius:20px;
+margin-bottom:20px;
+font-size:20px;
+line-height:1.6;
+}

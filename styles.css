@@ -600,3 +600,17 @@ body{
 padding-bottom:180px;
 }
 
+.testimonials{
+padding:70px 20px;
+}
+
+/* TESTIMONY */
+
+.testimonial-card{
+background:#0a0a0a;
+border:1px solid rgba(212,175,55,.2);
+padding:25px;
+margin-bottom:20px;
+border-radius:24px;
+}
+

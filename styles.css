@@ -543,7 +543,7 @@ font-size:20px;
 /* WHATSAPP SUPPORT */
 
 .whatsapp-support{
-position:;
+position:fixed;
 bottom:120px;
 right:20px;
 transform: scale(0.8);

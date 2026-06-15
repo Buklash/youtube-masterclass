@@ -1,25 +1,29 @@
-// SCROLL ANIMATIONS
+// PREMIUM SCROLL ANIMATIONS
 
 const observer = new IntersectionObserver(
 (entries) => {
+
 entries.forEach((entry) => {
 
-if(entry.isIntersecting){
+if (entry.isIntersecting) {
 entry.target.classList.add('show');
 }
 
 });
+
 },
 {
-threshold:0.15
+threshold: 0.12
 }
 );
 
 document
 .querySelectorAll(
-'.hero, .trust, .problem, .audience, .course-cover, .access-process, .learn-section, .results, .different, .bonus-section, .faq-section, .urgency, .cta-section'
+'.hero, .learn-section, .results, .bonus-section, .faq-section, .final-cta'
 )
 .forEach((section) => {
+
 section.classList.add('hidden');
 observer.observe(section);
+
 });

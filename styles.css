@@ -308,3 +308,24 @@ padding:50px 0;
 font-size:2rem;
 }
 }
+
+/* GLOBAL SECTION COMPRESSION */
+
+.problem,
+.audience,
+.access-process,
+.learn-section,
+.results,
+.testimonials,
+.different,
+.urgency,
+.bonus-section,
+.faq-section,
+.cta-section,
+.course-cover,
+.trust{
+padding-top:40px !important;
+padding-bottom:40px !important;
+margin-top:0 !important;
+margin-bottom:0 !important;
+}

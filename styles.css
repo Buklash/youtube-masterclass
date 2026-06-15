@@ -346,3 +346,14 @@ margin-bottom:0 !important;
 .faq-section h2{
 margin-bottom:25px !important;
 }
+
+.learn-grid,
+.results-grid,
+.process-grid,
+.different-grid{
+gap:18px !important;
+}
+
+.bonus-section{
+padding-top:20px !important;
+}

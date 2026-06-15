@@ -5,6 +5,12 @@ padding:0;
 box-sizing:border-box;
 }
 
+.container{
+max-width:1200px;
+margin:auto;
+padding:0 24px;
+}
+
 :root{
 --gold:#d4af37;
 --dark:#0b0b0b;
@@ -29,9 +35,12 @@ margin:auto;
 }
 
 .hero{
-width:min(1200px,92%);
-margin:auto;
-padding:80px 0;
+max-width:1200px;
+margin:40px auto;
+padding:50px;
+background:#111;
+border:1px solid rgba(212,175,55,.08);
+border-radius:30px;
 display:grid;
 grid-template-columns:1.1fr 1fr;
 gap:50px;
@@ -108,8 +117,19 @@ box-shadow:0 20px 60px rgba(212,175,55,.15);
 .results,
 .bonus-section,
 .faq-section,
+.testimonials,
+.urgency,
 .final-cta{
-padding:70px 0;
+max-width:1200px;
+margin:auto;
+}
+
+.learn-section,
+.results,
+.bonus-section,
+.faq-section,
+.final-cta{
+padding:50px 20px;
 }
 
 .learn-section h2,

@@ -258,7 +258,7 @@ box-shadow:0 12px 30px rgba(255,0,51,.35);
 .whatsapp-support{
 position:fixed;
 right:15px;
-bottom:85px;
+bottom:190px;
 background:#25D366;
 color:#fff;
 text-decoration:none;
@@ -356,4 +356,13 @@ gap:18px !important;
 
 .bonus-section{
 padding-top:20px !important;
+}
+
+@media(max-width:768px){
+
+.whatsapp-support{
+bottom:180px !important;
+right:15px;
+}
+
 }

@@ -607,6 +607,32 @@ padding-bottom:180px;
 
 .testimonials{
 padding:70px 20px;
+max-width:1200px;
+margin:auto;
+}
+
+.testimonials h2{
+text-align:center;
+font-size:42px;
+margin-bottom:40px;
+}
+
+.testimonial-card{
+background:#111;
+border:1px solid rgba(212,175,55,.2);
+padding:25px;
+border-radius:24px;
+margin-bottom:20px;
+}
+
+.testimonial-card p{
+margin:15px 0;
+line-height:1.8;
+}
+
+.testimonial-card span{
+color:#d4af37;
+font-weight:bold;
 }
 
 /* TESTIMONY */

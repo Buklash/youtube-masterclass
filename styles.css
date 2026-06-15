@@ -17,9 +17,9 @@ overflow-x:hidden;
 display:flex;
 align-items:center;
 justify-content:space-between;
-gap:50px;
-padding:80px 8%;
-min-height:100vh;
+gap:30px;
+padding:60px 8%;
+min-height:auto;
 }
 
 .hero-content{
@@ -49,12 +49,7 @@ margin-bottom:30px;
 max-width:700px;
 }
 
-.hero-features{
-display:flex;
-flex-wrap:wrap;
-gap:12px;
-justify-content:center;
-}
+
 
 
 .hero-features span{
@@ -175,7 +170,8 @@ box-shadow:0 10px 30px rgba(255,0,51,.4);
 
 .hero{
 flex-direction:column;
-padding-top:120px;
+padding-top:80px;
+padding-bottom:40px;
 }
 
 .hero h1{

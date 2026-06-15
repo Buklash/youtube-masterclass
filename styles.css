@@ -329,3 +329,14 @@ padding-bottom:40px !important;
 margin-top:0 !important;
 margin-bottom:0 !important;
 }
+
+.problem h2,
+.audience h2,
+.access-process h2,
+.learn-section h2,
+.results h2,
+.testimonials h2,
+.different h2,
+.faq-section h2{
+margin-bottom:25px !important;
+}

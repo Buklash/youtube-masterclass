@@ -436,3 +436,39 @@ padding:24px;
 }
 
 }
+
+
+/* STATS BAR */
+
+.stats-bar{
+max-width:1200px;
+margin:10px auto 20px;
+padding:0 20px;
+
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:15px;
+}
+
+.stat-item{
+background:#111;
+border:1px solid rgba(212,175,55,.15);
+border-radius:18px;
+padding:18px;
+text-align:center;
+font-weight:600;
+font-size:16px;
+}
+
+@media(max-width:768px){
+
+.stats-bar{
+grid-template-columns:1fr 1fr;
+}
+
+.stat-item{
+font-size:14px;
+padding:14px;
+}
+
+}

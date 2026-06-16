@@ -859,6 +859,36 @@ border-radius:12px;
 }
 
 
+.results-proof .section-header{
+    text-align:center;
+    margin:0 auto 60px;
+}
+
+.results-proof .section-header h2{
+    text-align:center;
+    margin-bottom:15px;
+}
+
+.results-proof .section-header p{
+    text-align:center;
+    margin:0 auto;
+}
+
+
+.results-proof{
+    text-align:center;
+}
+
+.results-proof .section-header{
+    width:100%;
+}
+
+.results-proof .section-header h2,
+.results-proof .section-header p{
+    text-align:center !important;
+}
+
+
 /* =========================
    YOUTUBE RESULTS SECTION
 ========================= 

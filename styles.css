@@ -793,10 +793,15 @@ font-size:1.9rem;
     font-size: 1.1rem;
 }
 
-.proof-grid{
+/*.proof-grid{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 24px;
+}*/
+
+.proof-grid{
+    grid-template-columns:repeat(4,1fr);
+    gap:22px;
 }
 
 .proof-card{
@@ -805,6 +810,7 @@ font-size:1.9rem;
     border-radius: 22px;
     overflow: hidden;
     transition: all 0.3s ease;
+    padding:18px;
 }
 
 .proof-card:hover{

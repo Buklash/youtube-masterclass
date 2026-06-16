@@ -422,17 +422,26 @@ font-weight:700;
 box-shadow:0 12px 30px rgba(255,0,51,.35);
 }
 
+/*.whatsapp-support{
+padding:10px 16px;
+font-size:13px;
+max-width:120px;
+right:20px;
+bottom:110px;
+}*/
+
 .whatsapp-support{
 position:fixed;
-right:15px;
-bottom:190px;
+right:20px;
+bottom:110px;
 background:#25D366;
 color:#fff;
 text-decoration:none;
-padding:12px 14px;
+padding:10px 16px;
 border-radius:999px;
-font-weight:700;
+font-weight:13px;
 z-index:999;
+max-width:120px;
 }
 
 .hidden{

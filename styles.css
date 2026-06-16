@@ -202,7 +202,7 @@ margin-bottom:18px;
 .bonus-box h2{
 margin-bottom:15px;
 }
-
+/*
 .faq-section .container{
 width:min(900px,92%);
 }
@@ -219,6 +219,33 @@ margin-bottom:16px;
 color:var(--gold);
 margin-bottom:10px;
 }
+*/
+
+.faq-item{
+background:#151515;
+border:1px solid #242424;
+border-radius:18px;
+padding:20px;
+margin-bottom:12px;
+}
+
+.faq-item summary{
+cursor:pointer;
+font-weight:700;
+color:#d4af37;
+list-style:none;
+}
+
+.faq-item summary::-webkit-details-marker{
+display:none;
+}
+
+.faq-item p{
+margin-top:15px;
+color:#d0d0d0;
+line-height:1.7;
+}
+
 
 .final-cta{
 text-align:center;

@@ -403,7 +403,7 @@ margin-bottom:25px;
 color:var(--muted);
 }
 
-.sticky-cta{
+/*.sticky-cta{
 position:fixed;
 left:50%;
 transform:translateX(-50%);
@@ -411,7 +411,7 @@ bottom:15px;
 z-index:1000;
 }
 
-/*.sticky-cta{
+.sticky-cta{
 width:280px;
 padding:14px 18px;
 font-size:1.1rem;
@@ -479,8 +479,13 @@ grid-template-columns:1fr;
 padding:50px 0;
 }
 
-.hero h1{
+/*.hero h1{
 font-size:2.2rem;
+}*/
+
+  .hero-content h1{
+font-size:2.2rem;
+line-height:1.1;
 }
 
 .hero-features{

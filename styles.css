@@ -310,9 +310,33 @@ font-weight:700;
 margin-bottom:18px;
 }
 
-.bonus-box h2{
+/*.bonus-box h2{
 margin-bottom:15px;
+}*/
+
+.bonus-box h2{
+font-size:2rem;
+line-height:1.2;
+margin-bottom:15px;
+color:#fff;
 }
+
+.bonus-items{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:15px;
+margin:25px 0;
+}
+
+.bonus-item{
+background:rgba(255,255,255,.04);
+border:1px solid rgba(212,175,55,.15);
+padding:18px;
+border-radius:16px;
+font-weight:600;
+}
+
+
 /*
 .faq-section .container{
 width:min(900px,92%);
@@ -463,7 +487,6 @@ font-size:2rem;
 .testimonials,
 .different,
 .urgency,
-.bonus-section,
 .faq-section,
 .cta-section,
 .course-cover,
@@ -472,6 +495,10 @@ padding-top:40px !important;
 padding-bottom:40px !important;
 margin-top:0 !important;
 margin-bottom:0 !important;
+}
+
+.bonus-section{
+padding:25px 0;
 }
 
 .problem h2,

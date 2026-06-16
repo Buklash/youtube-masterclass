@@ -810,7 +810,7 @@ border-radius:12px;
 .analytics-card img{
     width:100%;
     aspect-ratio:4/3;
-    object-fit:cover;
+    object-fit: contain;
     border-radius:16px;
     display:block;
 }

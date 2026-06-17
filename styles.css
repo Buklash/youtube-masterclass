@@ -789,15 +789,17 @@ font-size:1.9rem;
     background:#0b0b0b;
     border:1px solid rgba(212,175,55,.25);
     border-radius:24px;
-    padding:20px;
-  
+    /*padding:20px;*/
+    padding:24px;
     height:auto;
 }
 
 .analytics-card h3{
-    font-size:1.3rem;
     line-height:1.4;
     margin-top:15px;
+    font-size:2.2rem;
+    font-weight:700;
+
 }
 
 /*.analytics-card img{
@@ -811,9 +813,16 @@ border-radius:12px;
     width:100%;
     aspect-ratio:4/3;
     object-fit: contain;
-    border-radius:16px;
+    border-radius:12px;
     display:block;
+    margin-bottom:18px;
 }
+
+/*.analytics-card img{
+    width:100%;
+    border-radius:16px;
+    margin-bottom:18px;
+}*/
 
 /*.analytics-card img{
     width:100%;

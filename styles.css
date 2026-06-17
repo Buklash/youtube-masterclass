@@ -47,6 +47,11 @@ gap:50px;
 align-items:center;
 }
 
+.hero-image img{
+    width:110%;
+    max-width:none;
+}
+
 .hero-content{
 max-width:650px;
 }

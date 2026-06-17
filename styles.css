@@ -826,7 +826,7 @@ font-size:1.9rem;
 .analytics-card img{
     width:100%; 
     height:auto; /* 320;*/
-    object-fit:contain;
+   /* object-fit:contain;*/
     display:block;
     border-radius:12px;
 }

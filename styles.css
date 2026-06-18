@@ -919,6 +919,19 @@ font-size:1.9rem;
 
 }
 
+.payment-footer{
+    text-align:center;
+    padding:50px 20px;
+    color:#9e9e9e;
+    border-top:1px solid rgba(212,175,55,.15);
+    margin-top:100px;
+}
+
+.payment-footer p:first-child{
+    margin-bottom:10px;
+}
+
+
 
 
 /* =========================
